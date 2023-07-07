@@ -1,11 +1,17 @@
 {
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^5.13.7",
+    "@mui/styled-engine": "^5.13.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-router-dom": "^6.14.1",
     "react-scripts": "^5.0.1",
     "web-vitals": "^3.0.4"
   },
@@ -32,5 +38,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "name": "learning-japanese",
+  "description": "This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "learning-japanese"
+  ],
+  "author": "Eric",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
