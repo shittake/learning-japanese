@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.question-number {
+  padding-left: 500px
+}
